@@ -10,3 +10,4 @@ Repository containing portfolio of data science projects as a part of my self-le
 
 	_Tools: scikit-learn, Pandas, Seaborn, Matplotlib,
 
+	- [Predicting Titanic disaster survivor](https://github.com/Joeycooky/DataScience-portfolio/blob/master/Classification%20-%20Titanic%20survivor%20prediction/Titanic%20survivor%20prediction.ipynb): A model to predict if the given characteristics of passenger will survive in Titanic disaster or not.
