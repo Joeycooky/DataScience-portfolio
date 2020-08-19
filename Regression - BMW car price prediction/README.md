@@ -1,4 +1,4 @@
-# Kaggle: Titanic - EDM and Feature Engineering v. 01
+# BMW price prediction 
 This is a jupyter notebook that does exploratory data analysis, feature engineering and tries to predict BMW car price in UK market.
 ## Install
 This project requires **Python 3.x** and the following Python libraries installed:
