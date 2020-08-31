@@ -35,6 +35,8 @@ jupyter notebook titanic survivor prediction.ipynb
 
 This will open the iPython Notebook software and project file in your browser.
 
+Alternatively you can [click here](https://nbviewer.jupyter.org/github/Joeycooky/DataScience-portfolio/blob/master/Classification%20-%20Titanic%20survivor%20prediction/titanic%20survivor%20prediction.ipynb#7) to run a jupyter notebook viewer of the analysis.
+
 ## Data
 Dataset is provided by Kaggle as a part of "Titanic: Machine Learning from Disaster" competition. The goal of this model is to predict whether given passenger will survive the disaster or not based on following features.
 
