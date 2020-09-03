@@ -32,6 +32,7 @@ jupyter notebook bmw price prediction.ipynb
 
 This will open the iPython Notebook software and project file in your browser.
 
+### Or you can view it online via [JupyterNotebook viewer](https://nbviewer.jupyter.org/github/Joeycooky/DataScience-portfolio/blob/master/Regression%20-%20BMW%20car%20price%20prediction/bmw-price-prediction.ipynb)
 ## Data
 
 The dataset has 10,781 entries, later we'll split it into training and test set.
