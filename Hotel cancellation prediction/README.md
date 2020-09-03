@@ -46,10 +46,21 @@ compensate for canceled booking. Moreover, they can utilize this information to 
 * Which market segment has high rate of cancellation?
 * Which distribution channel has high rate of cancellation?
 
- ## Finding
+ ## Preliminary Finding
  
+>![Distribution](https://github.com/Joeycooky/DataScience-portfolio/blob/master/Hotel%20cancellation%20prediction/image/download.png) 
 
+* Most of booking were made with lead time less than 100 days (approximately 3 months). However we can observe that there are some booking were made in advance with lead time > 400 days 
+* Almost all booking were made personally. There are several majors travel agencies involving in making reservation. (From list of more than 500 agencies)
 
+>![Leadtime](https://github.com/Joeycooky/DataScience-portfolio/blob/master/Hotel%20cancellation%20prediction/image/__results___45_0.png)
 
+It has been observed that
+* Guest who not canceled the reservation often have short lead time.
+* Guest with high amount of special request seem to have interest in hotel and have less cancellations than guest without special request
+* Guest with some booking change (1-5) has lower possibility of cancellations than one who doesn't make any change
+* Guest who demands single parking space has no cancellations!
+
+## You can find more detail in (sflasdf)
 ## Notes
-This notebook for self-learning and participated in "Titanic: Machine Learning from Disaster" competition
+This notebook for self-learning purpose only
