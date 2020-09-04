@@ -61,6 +61,6 @@ It has been observed that
 * Guest with some booking change (1-5) has lower possibility of cancellations than one who doesn't make any change
 * Guest who demands single parking space has no cancellations!
 
-## You can find more detail in (sflasdf)
+## You can find more detail in notebook [here](https://nbviewer.jupyter.org/github/Joeycooky/DataScience-portfolio/blob/master/Hotel%20cancellation%20prediction/hotel-demand.ipynb)
 ## Notes
 This notebook for self-learning purpose only
