@@ -61,6 +61,17 @@ It has been observed that
 * Guest with some booking change (1-5) has lower possibility of cancellations than one who doesn't make any change
 * Guest who demands single parking space has no cancellations!
 
+## Conclusion
+
+We have explored the data and able to extracted some useful insights since exploratory data analysis. We’ve found that the booking are likely to be canceled if ... 
+* they have incredibly long lead time, 
+* have little or no special requirements, 
+* booked with full broad meal ,etc. 
+
+Some specific group of guests also have higher chance of cancellation than the others. For example, guests from Portugal themselves has higher rate of cancellation than some foreign travelers .
+
+Moreover, we have trained classification models to predict whether a given reservations will be canceled or not. The outcome of the model quite satisfy (with an accuracy of 89.2%). Although it can be improved by training with more data and adjusting regularization parameters. But with current performance, our model has shown significant improvement from benchmark which can be utilized to adjust overbooking policy to achieve higher occupancy rate. In addition, even low season period when booking amount doesn’t fulfill hotel capacity. The model can be used to manage hotel workforce according to fluctuation in demand in each period of years.
+
 ## You can find more detail in notebook [here](https://nbviewer.jupyter.org/github/Joeycooky/DataScience-portfolio/blob/master/Hotel%20cancellation%20prediction/hotel-demand.ipynb)
 ## Notes
 This notebook for self-learning purpose only
