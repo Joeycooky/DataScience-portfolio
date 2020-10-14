@@ -18,6 +18,6 @@ Repository containing portfolio of data science projects as a part of my self-le
 
 - ### Deep Learning
 
-	- [Predicting if tweets is real or fake?](https://github.com/Joeycooky/DataScience-portfolio/tree/master/Classification%20-%20Tweet%20message) : Training neural networks to learn on labeled tweet messages to learn charateristics of real and fake tweet and used them to predict whether disaster tweet is real or not? 
+	- [Predicting if tweets is real or fake?](https://github.com/Joeycooky/DataScience-portfolio/tree/master/Classification%20-%20Tweet%20message) : Training neural networks to learn on labeled tweet messages to learn charateristics of real and fake tweet and used them to **predict whether disaster tweet is real or not?** 
 	
-	- [Identifying Pneumonia from chest X-rays image using CNN with transfer learning](https://github.com/Joeycooky/DataScience-portfolio/tree/master/Classification%20-%20Pneumonia%20with%20transfered%20CNN) : Using pretrained VGG16 model (Convolutional Neural networks) which was trained on ImageNet Dataset to construct the model for identifying Pneumonia from chest X-rays images. 
+	- [Identifying Pneumonia from chest X-rays image using CNN with transfer learning](https://github.com/Joeycooky/DataScience-portfolio/tree/master/Classification%20-%20Pneumonia%20with%20transfered%20CNN) : Using pretrained VGG16 model (Convolutional Neural networks) which was trained on ImageNet Dataset to construct the model for **identifying Pneumonia from chest X-rays images.** 
