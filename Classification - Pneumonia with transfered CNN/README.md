@@ -28,8 +28,17 @@ Pneumonia is an inflammatory condition of the lung primarily affecting the small
 
 * Chest x-rays for people who are healthy (NORMAL) are clearer, minimal white shaded in lung area
 * On the other hand, for people who have Pneumonia, their x-rays image seem more opaque.
+## Result
+![CM](https://github.com/Joeycooky/DataScience-portfolio/blob/master/Classification%20-%20Pneumonia%20with%20transfered%20CNN/Image/CM.png)
+![ROC](https://github.com/Joeycooky/DataScience-portfolio/blob/master/Classification%20-%20Pneumonia%20with%20transfered%20CNN/Image/result.png)
 
 ## Conclusion
+With limited time, we're able to build x-rays image classifier to classify to correctly predict Pneumonia chest x-rays with minimal Pneumonia cases wrongly classify as Normal (FN). Then we try to improve model performance by fine tuning with class weight and few techniques. We have acheive some improvement, but our model still have high amount of false positive (Normal case wrongly classify as Pneumonia)
+
+We can see that our accuracy on test set is about 92% (relatively lower than accuracy in training and validation set). This indicate significant level of overfitting. Try reduce model complexity by cutting off some layers of VGG16 and adjust regularization parameters such as drop out rate and L2 regularization in Dense layers may help.
+
+Our recall is greater than our precision, which mean that almost all pneumonia x-ray images are correctly classified (which is our main objective) but there are some normal images wrongly identified. I will study further on how to solve this problem.
+
 
 
 ## You can find more detail in notebook [here](https://nbviewer.jupyter.org/github/Joeycooky/DataScience-portfolio/blob/master/Classification%20-%20Pneumonia%20with%20transfered%20CNN/pneumania-classification-transfered-cnn.ipynb)
