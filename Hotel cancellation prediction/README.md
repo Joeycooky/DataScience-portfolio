@@ -72,6 +72,7 @@ Some specific group of guests also have higher chance of cancellation than the o
 
 Moreover, we have trained classification models to predict whether a given reservations will be canceled or not. The outcome of the model quite satisfy (with an accuracy of 89.2%). Although it can be improved by training with more data and adjusting regularization parameters. But with current performance, our model has shown significant improvement from benchmark which can be utilized to adjust overbooking policy to achieve higher occupancy rate. In addition, even low season period when booking amount doesn’t fulfill hotel capacity. The model can be used to manage hotel workforce according to fluctuation in demand in each period of years.
 
+
 ## You can find more detail in notebook [here](https://nbviewer.jupyter.org/github/Joeycooky/DataScience-portfolio/blob/master/Hotel%20cancellation%20prediction/hotel-demand.ipynb)
 ## Notes
 This notebook for self-learning purpose only
